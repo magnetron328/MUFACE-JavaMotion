@@ -1,6 +1,7 @@
 Welcome to the official repository for **JavaMotion v7.00** and the **MUFACE v6 Framework**.
 
-JavaMotion is a high-precision framework for discrete time-and-frequency $f-t$ trajectory calculations, numerical trajectory solving, and NCO hardware mapping for stepper motor drives.
+JavaMotion is a high-precision framework for discrete time-and-frequency $f-t$ trajectory calculations, numerical trajectory solving, and NCO hardware mapping for stepper motor drives. MUFACE® (Motor User InterFACE), which enables PLC functions with a stepper controller, was originally developed in September 1994.
+Starting in 2026, the MUFACE v6 hardware will be adapted for use on multiple hardware platforms.
 
 ## 📄 Documentation & Whitepaper
 
@@ -20,4 +21,4 @@ Pre-compiled files and release packages for **JavaMotion v7.00** will be availab
 * **Authors:** Martin Habenicht, René Merz
 
 ---
-*(Editorial preparation and mathematical documentation synthesis supported by digital assistance.)*
+*(Editorial preparation and mathematical documentation synthesis supported also by digital assistance.)*
