@@ -16,7 +16,7 @@ Pre-compiled files and release packages for **JavaMotion v7.00** will be availab
 *Note: Source code repository structure is currently being updated for the public release.*
 
 
-# JavaMotion MUFACE-V4/V6 Serial Communication Protocol (v2.42)
+## JavaMotion MUFACE-V4/V6 Serial Communication Protocol (v2.42)
 
 Offizielle Protokoll-Spezifikation für die serielle Schnittstelle (RS-232 / Virtueller USB-COM-Port) zwischen der Steuerungssoftware **JavaMotion** und den Schrittmotor-Controllern **MUFACE v4**, **MUFACE v6** sowie modernen Portierungen (ESP32 / Arduino Nano R4 / Cortex-M).
 
