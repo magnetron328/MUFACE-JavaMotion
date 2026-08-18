@@ -37,11 +37,11 @@ Offizielle Protokoll-Spezifikation für die serielle Schnittstelle (RS-232 / Vir
 Jedes Datenpaket zwischen PC und Controller ist in einen festen Transport-Rahmen gekapselt:
 
 ```text
-+------------------ GESAMTER TRANSPORT-FRAME (Len_H : Len_L Bytes) ---------------------+
-| Byte 0: Cmd ID | Byte 1..2: Total Len | Byte 3..(N+2): Payload | Byte (N+3): Checksum |
-+----------------+----------------------+------------------------+----------------------+
-                                        | Typ | SubLen | SeqNr | Sequenzspezif. Daten |
-                                        +-----+--------+-------+----------------------+
++------------------ GESAMTER TRANSPORT-FRAME (Len_H : Len_L Bytes) -----------------------+
+| Byte 0: Cmd ID | Byte 1..2: Total Len | Byte 3..(N+2): Payload | Byte (N+3): Checksum   |
++----------------+----------------------+------------------------+------------------------+
+                                        | Typ | SubLen | SeqNr | Sequenzspezifische Daten |
+                                        +-----+--------+-------+--------------------------+
 ## 🏢 Contact & Maintainers
 
 * **Reinton Audio Lab** – [reinton.ch](https://reinton.ch)
